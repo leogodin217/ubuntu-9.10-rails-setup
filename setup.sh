@@ -1,5 +1,5 @@
 # Install the basics
-aptitude install -y vim build-essential g++ sqlite3 libsqlite3-dev libxslt-dev libxml2 libxml2-dev git gitk subversion libssl-dev
+aptitude install -y vim build-essential g++ sqlite3 libsqlite3-dev libxslt-dev libxml2 libxml2-dev git gitk subversion libssl-dev libreadline6-dev
  
 # Setup environment
 cp /usr/share/vim/vim72/vimrc_example.vim ~leo/.vimrc
