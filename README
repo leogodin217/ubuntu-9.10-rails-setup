@@ -1,3 +1,5 @@
-This script will configure a new Ubuntu 9.10 system with enough software to develop rails applications.  It includes ruby, rails, rspec, git, vim and other packages.  To use run "sudo sh setup.sh".  I tests I found that the ruby download sometimes hangs.  If this happens delete the downloaded file and re-run the script.  
+This script will configure a new Ubuntu 9.10 system with enough software to develop rails applications.  It includes ruby, rails, rspec, git, vim and other packages.  
+
+To use run edit the script to change leo to your username (%s/leo/<username>/g in vim).  Run sudo sh setup.sh".  In tests I found that the ruby download sometimes hangs.  If this happens delete the downloaded file and re-run the script.  
 
 
