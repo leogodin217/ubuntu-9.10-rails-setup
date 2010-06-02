@@ -2,9 +2,11 @@
 aptitude install -y vim build-essential g++ sqlite3 libsqlite3-dev libxslt-dev libxml2 libxml2-dev git gitk subversion libssl-dev libreadline6-dev
  
 # Setup environment
-cp /usr/share/vim/vim72/vimrc_example.vim ~leo/.vimrc
-chown leo:leo ~leo/.vimrc
-echo 'set tabstop=4' >> ~leo/.vimrc
+# If you don't already have a decent .vimrc setup follow the instructions below.
+# !!!Make sure to change "leo" (my username) to your username.   In vim type %s/leo/<username>/g. Then uncomment the next 3 lines to get a decent .vimrc setup. 
+#cp /usr/share/vim/vim72/vimrc_example.vim ~leo/.vimrc
+#chown leo:leo ~leo/.vimrc
+#echo 'set tabstop=4' >> ~leo/.vimrc
  
 # Setup ruby
 wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz
