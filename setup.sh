@@ -20,6 +20,6 @@ cd ..
  
 # Setup ruby gems
 gem update --system
-gem install rails do_sqlite3 sqlite3-ruby rspec rspec-rails cucumber webrat rails_datamapper datamapper paperclip haml factory_girl factory_girl_extensions
+gem install rails do_sqlite3 sqlite3-ruby rspec rspec-rails cucumber webrat rails_datamapper datamapper paperclip haml factory_girl factory_girl_extensions rails_datamapper recaptcha ssl_requirement
 # For 1.2.3 error in rspec
 gem install test-unit -v=1.2.3
